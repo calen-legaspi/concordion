@@ -11,3 +11,11 @@ As a specification writer, I want to be free to create pages in my specification
 *When* Concordion runs.
 
 *Then* RandomFile.md should be **converted to HTML file RandomFile.html**.
+
+## Example: Convert Excel File
+
+*Given* Excel file **SomeFile.xlsx** in the spec directory that **does not have a matching Fixture**.
+
+*When* Concordion runs.
+
+*Then* SomeFile.xlsx should be **converted to HTML file SomeFile.html**.
